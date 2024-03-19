@@ -94,7 +94,7 @@ if __name__ == "__main__":
 ______________________
 Continuamos con el desarrollo del reto.
 
-**Punto 1**:
+## **Punto 1**:
 Para este punto buscamos implementar funciones ya dadas en clase, ademas de tener en cuenta algunas formulas particulares, como:
 
 #### Fórmulas matemáticas
@@ -172,7 +172,7 @@ Este código define las siguientes funciones:
 Al ejecutar el programa, se saludará al usuario y se le pedirá que ingrese los radios y la altura para calcular y mostrar los volúmenes y áreas superficiales correspondientes.
 
 ______________________
-**Punto 2**:
+## **Punto 2**:
 
 [![p2.jpg](https://i.postimg.cc/wv7bV32p/p2.jpg)](https://postimg.cc/62x06WFj)
 
@@ -207,4 +207,88 @@ print(f'Área de la figura: {calcular_area(a, b, r)}')
 print(f'Perímetro de la figura: {calcular_perimetro(a, b, r)}')
 
 ```
+______________________
+## **Punto 3**:
+
+```python
+def calcular_peso_total_aves(N, M, K):
+    """
+    Calcula el peso total de las aves dado el número de gallinas, gallos y pollitos.
+    
+    Parámetros:
+    N -- número de gallinas
+    M -- número de gallos
+    K -- número de pollitos
+    
+    Retorna:
+    Peso total en kilos
+    """
+    peso_gallina = 6  # cada gallina pesa 6 kilos
+    peso_gallo = 7    # cada gallo pesa 7 kilos
+    peso_pollito = 1  # cada pollito pesa 1 kilo
+    
+    peso_total = (N * peso_gallina) + (M * peso_gallo) + (K * peso_pollito)
+    return peso_total
+
+# Ejemplo de uso:
+N = int(input('Ingrese el número de gallinas: '))
+M = int(input('Ingrese el número de gallos: '))
+K = int(input('Ingrese el número de pollitos: '))
+
+print(f'El peso total de las aves es: {calcular_peso_total_aves(N, M, K)} kilos')
+
+```
+
+Cuando llamamos a la función calcular_peso_total_aves, debes pasarle los valores de N, M y K que corresponden al número de gallinas, gallos y pollitos, respectivamente. La función luego devuelve el peso total de las aves.
+
+______________________
+## **Punto 4**:
+
+```python
+def calcular_cambio(P, M, H, B):
+    """
+    Calcula el cambio o lo que queda debiendo después de comprar panes, leche y huevos.
+    
+    Parámetros:
+    P -- número de panes
+    M -- número de bolsas de leche
+    H -- número de huevos
+    B -- valor del billete con el que se paga
+    
+    Retorna:
+    Un mensaje indicando el cambio o lo que queda debiendo.
+    """
+    precio_pan = 300
+    precio_leche = 3300
+    precio_huevo = 350
+    
+    total_panes = P * precio_pan
+    total_leche = M * precio_leche
+    total_huevos = H * precio_huevo
+    
+    total_compra = total_panes + total_leche + total_huevos
+    cambio = B - total_compra
+    
+    if cambio < 0:
+        return f'Quedas debiendo {abs(cambio)} pesos.'
+    else:
+        return f'Tu cambio es {cambio} pesos.'
+
+# Solicitar al usuario que ingrese las cantidades y el billete con el que va a pagar
+P = int(input('Ingrese el número de panes a comprar: '))
+M = int(input('Ingrese el número de bolsas de leche a comprar: '))
+H = int(input('Ingrese el número de huevos a comprar: '))
+B = int(input('Ingrese el valor del billete con el que va a pagar: '))
+
+# Llamar a la función y mostrar el resultado
+print(calcular_cambio(P, M, H, B))
+
+```
+
+Este código solicitará al usuario los valores de P, M, H, y B y luego calculará el cambio o lo que queda debiendo después de realizar la compra. Finalmente, mostrará un mensaje con el resultado.
+
+______________________
+## **Punto 5**:
+
+
 
