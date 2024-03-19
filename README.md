@@ -210,6 +210,8 @@ print(f'Perímetro de la figura: {calcular_perimetro(a, b, r)}')
 ______________________
 ## **Punto 3**:
 
+Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
+
 ```python
 def calcular_peso_total_aves(N, M, K):
     """
@@ -243,6 +245,8 @@ Cuando llamamos a la función calcular_peso_total_aves, debes pasarle los valore
 
 ______________________
 ## **Punto 4**:
+
+Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
 ```python
 def calcular_cambio(P, M, H, B):
@@ -290,5 +294,34 @@ Este código solicitará al usuario los valores de P, M, H, y B y luego calcular
 ______________________
 ## **Punto 5**:
 
+Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
 
+```python
+def calcular_valor_prestamo(C, i, n):
+    """
+    Calcula el valor acumulado de un préstamo utilizando interés compuesto.
+    
+    Parámetros:
+    C -- monto del préstamo inicial (capital)
+    i -- tasa de interés mensual (en forma decimal, por ejemplo, 5% sería 0.05)
+    n -- número de meses
+    
+    Retorna:
+    El valor futuro del préstamo.
+    """
+    A = C * (1 + i)**n
+    return A
+
+# Solicitar al usuario que ingrese los detalles del préstamo
+C = float(input('Ingrese el monto del préstamo (capital inicial): '))
+i = float(input('Ingrese la tasa de interés mensual (por ejemplo, ingrese 0.05 para 5%): '))
+n = int(input('Ingrese el número de meses: '))
+
+# Calcular y mostrar el valor futuro del préstamo
+valor_futuro = calcular_valor_prestamo(C, i, n)
+print(f'El valor futuro del préstamo después de {n} meses es: {valor_futuro}')
+
+```
+
+Este programa solicita que ingrese el capital inicial del préstamo, la tasa de interés mensual en forma decimal, y el número de meses. Luego, usará la función calcular_valor_prestamo para calcular y mostrar el valor futuro del préstamo.
 
