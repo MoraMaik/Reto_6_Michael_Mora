@@ -493,3 +493,49 @@ pip search término_de_búsqueda
 ```
 
 Para utilizar `pip`, usualmente se necesita tener Python instalado en el sistema. `pip` se incluye por defecto con las versiones de Python 2.7.9+ y Python 3.4+. Para verificar si tenemos `pip` instalado y ver su versión, podemos ejecutar pip --version en la línea de comandos o terminal.
+
+______________________
+## **Punto 10**:
+
+1. Requests
++ **Uso**: Simplifica los métodos HTTP como GET y POST para realizar solicitudes a la web.
++ **Instalación**:
+```sh
+pip install requests
+```
+2. NumPy
++ **Uso**: Proporciona soporte para arrays y matrices grandes y de alta dimensión, junto con una colección de funciones matemáticas para operar con estas estructuras.
++ **Instalación**:
+```sh
+pip install numpy
+```
+3. Pandas
++ **Uso**: Ofrece estructuras de datos y herramientas de análisis de datos de alto rendimiento y fácil uso.
++ **Instalación**:
+```sh
+pip install pandas
+```
+4. Matplotlib
++ **Uso**: Librería de trazado para Python y su extensión matemática NumPy. Permite crear gráficos estáticos, interactivos y animados.
++ **Instalación**:
+```sh
+pip install matplotlib
+```
+5. SciPy
++ **Uso**: Basado en NumPy, agrega un montón de funcionalidades científicas y técnicas como módulos de optimización, álgebra lineal, integración, interpolación, funciones especiales, FFT, procesamiento de señales y de imágenes, entre otros.
++ **Instalación**:
+```sh
+pip install scipy
+```
+6. Flask
++ **Uso**: Microframework para aplicaciones web en Python. Es ligero y modular, lo que lo hace adaptable a las necesidades de desarrollo web.
++ **Instalación**:
+```sh
+pip install Flask
+```
+7. Django
++ **Uso**:Framework de alto nivel para el desarrollo rápido de sitios web seguros y mantenibles. Fomenta el reuso de código y la modularidad.
++ **Instalación**:
+```sh
+pip install Django
+```
