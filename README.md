@@ -441,35 +441,35 @@ Para el punto anterior incluir las funciones en un archivo independiente e impor
 (Se encuentran en los archivos del repo)
 ______________________
 ## **Punto 9**:
-Consultar qué es y cómo funciona pip en python.
+Consultar que es y como funciona pip en python.
 
-`pip` es el sistema de gestión de paquetes utilizado por Python, que facilita la instalación y gestión de bibliotecas y dependencias que no están incluidas en la biblioteca estándar de Python. Su nombre es un acrónimo recursivo que significa "Pip Installs Packages" (Pip Instala Paquetes).
+`pip` es el sistema de gestion de paquetes utilizado por Python, que facilita la instalacion y gestion de bibliotecas y dependencias que no estan incluidas en la biblioteca estandar de Python. Su nombre es un acronimo recursivo que significa "Pip Installs Packages" (Pip Instala Paquetes).
 
-### ¿Cómo funciona pip?
+### ¿Como funciona pip?
 Cuando utilizas pip para instalar un paquete, realiza los siguientes pasos:
 
-1. Búsqueda del paquete: pip busca el paquete especificado en el Python Package Index (PyPI), que es un repositorio que contiene miles de paquetes de software para Python.
+1. Busqueda del paquete: pip busca el paquete especificado en el Python Package Index (PyPI), que es un repositorio que contiene miles de paquetes de software para Python.
 
-2. Resolución de dependencias: Una vez encontrado el paquete, pip calcula y analiza las dependencias que el paquete necesita para funcionar correctamente. Esto significa que si el paquete que deseas instalar depende de otras librerías, pip intentará instalar esas librerías también.
+2. Resolucion de dependencias: Una vez encontrado el paquete, pip calcula y analiza las dependencias que el paquete necesita para funcionar correctamente. Esto significa que si el paquete que deseas instalar depende de otras librerias, pip intentara instalar esas librerias tambien.
 
 3. Descarga del paquete y dependencias: pip descarga el paquete y cualquier dependencia necesaria desde PyPI.
 
-4. Instalación: Después de la descarga, pip instala el paquete y sus dependencias en tu entorno Python. Esto incluye la compilación de extensiones si es necesario.
+4. Instalacion: Despues de la descarga, pip instala el paquete y sus dependencias en tu entorno Python. Esto incluye la compilacion de extensiones si es necesario.
 
-5. Verificación: Finalmente, pip verifica que la instalación se haya completado correctamente.
+5. Verificacion: Finalmente, pip verifica que la instalacion se haya completado correctamente.
 
-### Uso básico de pip
+### Uso basico de pip
 
-Algunos comandos básicos de pip:
+Algunos comandos basicos de pip:
 
 + Instalar un paquete:
 ```Pseudocode
 pip install nombre_del_paquete
 ```
 
-+ Instalar una versión específica de un paquete:
++ Instalar una version especifica de un paquete:
 ```Pseudocode
-pip install nombre_del_paquete==versión
+pip install nombre_del_paquete==version
 ```
 
 + Actualizar un paquete:
@@ -489,53 +489,56 @@ pip list
 
 + Buscar paquetes en PyPI:
 ```sql
-pip search término_de_búsqueda
+pip search termino_de_busqueda
 ```
 
-Para utilizar `pip`, usualmente se necesita tener Python instalado en el sistema. `pip` se incluye por defecto con las versiones de Python 2.7.9+ y Python 3.4+. Para verificar si tenemos `pip` instalado y ver su versión, podemos ejecutar pip --version en la línea de comandos o terminal.
+Para utilizar `pip`, usualmente se necesita tener Python instalado en el sistema. `pip` se incluye por defecto con las versiones de Python 2.7.9+ y Python 3.4+. Para verificar si tenemos `pip` instalado y ver su version, podemos ejecutar pip --version en la linea de comandos o terminal.
 
 ______________________
 ## **Punto 10**:
 
 1. Requests
-+ **Uso**: Simplifica los métodos HTTP como GET y POST para realizar solicitudes a la web.
-+ **Instalación**:
++ **Uso**: Simplifica los metodos HTTP como GET y POST para realizar solicitudes a la web.
++ **Instalacion**:
 ```sh
 pip install requests
 ```
 2. NumPy
-+ **Uso**: Proporciona soporte para arrays y matrices grandes y de alta dimensión, junto con una colección de funciones matemáticas para operar con estas estructuras.
-+ **Instalación**:
++ **Uso**: Proporciona soporte para arrays y matrices grandes y de alta dimension, junto con una coleccion de funciones matematicas para operar con estas estructuras.
++ **Instalacion**:
 ```sh
 pip install numpy
 ```
 3. Pandas
-+ **Uso**: Ofrece estructuras de datos y herramientas de análisis de datos de alto rendimiento y fácil uso.
-+ **Instalación**:
++ **Uso**: Ofrece estructuras de datos y herramientas de analisis de datos de alto rendimiento y facil uso.
++ **Instalacion**:
 ```sh
 pip install pandas
 ```
 4. Matplotlib
-+ **Uso**: Librería de trazado para Python y su extensión matemática NumPy. Permite crear gráficos estáticos, interactivos y animados.
-+ **Instalación**:
++ **Uso**: Libreria de trazado para Python y su extension matematica NumPy. Permite crear graficos estaticos, interactivos y animados.
++ **Instalacion**:
 ```sh
 pip install matplotlib
 ```
 5. SciPy
-+ **Uso**: Basado en NumPy, agrega un montón de funcionalidades científicas y técnicas como módulos de optimización, álgebra lineal, integración, interpolación, funciones especiales, FFT, procesamiento de señales y de imágenes, entre otros.
-+ **Instalación**:
++ **Uso**: Basado en NumPy, agrega un monton de funcionalidades cientificas y tecnicas como modulos de optimizacion, algebra lineal, integracion, interpolacion, funciones especiales, FFT, procesamiento de señales y de imagenes, entre otros.
++ **Instalacion**:
 ```sh
 pip install scipy
 ```
 6. Flask
 + **Uso**: Microframework para aplicaciones web en Python. Es ligero y modular, lo que lo hace adaptable a las necesidades de desarrollo web.
-+ **Instalación**:
++ **Instalacion**:
 ```sh
 pip install Flask
 ```
 7. Django
-+ **Uso**:Framework de alto nivel para el desarrollo rápido de sitios web seguros y mantenibles. Fomenta el reuso de código y la modularidad.
-+ **Instalación**:
++ **Uso**:Framework de alto nivel para el desarrollo rapido de sitios web seguros y mantenibles. Fomenta el reuso de codigo y la modularidad.
++ **Instalacion**:
 ```sh
 pip install Django
 ```
+______________________
+FIN DEL RETO
+______________________
